@@ -7,7 +7,7 @@ const app = express()
 connectToMongo();
 
 
-const appPort = process.env.PORT || 3000;
+const appPort = process.env.PORT || 7000;
 
 app.listen(appPort, () => {
     console.log(`server started ${appPort}`)
